@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5289" started-at="2018-03-23T00:36:08Z" finished-at="2018-03-23T00:36:14Z">
+  <suite name="Suite" duration-ms="6639" started-at="2018-03-24T04:01:26Z" finished-at="2018-03-24T04:01:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5289" started-at="2018-03-23T00:36:08Z" finished-at="2018-03-23T00:36:14Z">
+    <test name="Test" duration-ms="6639" started-at="2018-03-24T04:01:26Z" finished-at="2018-03-24T04:01:33Z">
       <class name="test.Selenium_JEnkins_Integration">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Selenium_JEnkins_Integration@724af044]" name="setUp" is-config="true" duration-ms="5113" started-at="2018-03-23T00:36:08Z" finished-at="2018-03-23T00:36:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Selenium_JEnkins_Integration@6b4a4e18]" name="setUp" is-config="true" duration-ms="6598" started-at="2018-03-24T04:01:26Z" finished-at="2018-03-24T04:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:test.Selenium_JEnkins_Integration@724af044]" name="test" duration-ms="38" started-at="2018-03-23T00:36:13Z" finished-at="2018-03-23T00:36:13Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:test.Selenium_JEnkins_Integration@6b4a4e18]" name="test" duration-ms="5" started-at="2018-03-24T04:01:33Z" finished-at="2018-03-24T04:01:33Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -38,16 +38,15 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="FAIL" signature="teardown()[pri:0, instance:test.Selenium_JEnkins_Integration@724af044]" name="teardown" is-config="true" duration-ms="0" started-at="2018-03-23T00:36:14Z" finished-at="2018-03-23T00:36:14Z">
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:test.Selenium_JEnkins_Integration@6b4a4e18]" name="teardown" is-config="true" duration-ms="0" started-at="2018-03-24T04:01:33Z" finished-at="2018-03-24T04:01:33Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -77,9 +76,8 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
@@ -87,6 +85,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test.Selenium_JEnkins_Integration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
